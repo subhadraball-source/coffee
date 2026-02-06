@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Brew | Artisan Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Forest Brew</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Brewed in the Heart of Nature</h1>
+                <p>Experience the richest flavors sustainably sourced from the deep forests.</p>
+                <a href="#features" class="cta-button">Explore Our Blends</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Why Choose Forest Brew?</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="icon">🌱</div>
+                        <h3>Ethically Sourced</h3>
+                        <p>We partner directly with farmers to ensure fair wages and sustainable practices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🔥</div>
+                        <h3>Artisan Roasted</h3>
+                        <p>Small-batch roasting brings out the unique bold notes of every bean.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🍃</div>
+                        <h3>100% Organic</h3>
+                        <p>No pesticides, no additives. Just pure, natural coffee as it should be.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Our Collection</h2>
+
+            <div class="menu-category">
+                <h3>Hot Coffee</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                        </div>
+                        <div class="menu-details">
+                            <h4>Espresso</h4>
+                            <span class="price">$3.50</span>
+                            <p>Rich, bold, and full-bodied shot of pure energy.</p>
+                            <button class="add-to-cart-btn" data-name="Espresso" data-price="3.50"
+                                data-image="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">Add
+                                to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                    </div>
+                    <div class="menu-details">
+                        <h4>Cappuccino</h4>
+                        <span class="price">$4.50</span>
+                        <p>Espresso smoothed with steamed milk and foam.</p>
+                        <button class="add-to-cart-btn" data-name="Cappuccino" data-price="4.50"
+                            data-image="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1570968992193-6e5c469a486b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                    </div>
+                    <div class="menu-details">
+                        <h4>Latte</h4>
+                        <span class="price">$4.75</span>
+                        <p>Creamy milk and espresso with a light layer of foam.</p>
+                        <button class="add-to-cart-btn" data-name="Latte" data-price="4.75"
+                            data-image="https://images.unsplash.com/photo-1570968992193-6e5c469a486b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">Add
+                            to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Cold Brews</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1461023058943-48dbf1399192?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                    </div>
+                    <div class="menu-details">
+                        <h4>Classic Cold Brew</h4>
+                        <span class="price">$5.00</span>
+                        <p>Steeped for 24 hours for a smooth, low-acid taste.</p>
+                        <button class="add-to-cart-btn" data-name="Classic Cold Brew" data-price="5.00"
+                            data-image="https://images.unsplash.com/photo-1461023058943-48dbf1399192?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1517701604599-bb29b5c7fa69?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                    </div>
+                    <div class="menu-details">
+                        <h4>Iced Caramel Macchiato</h4>
+                        <span class="price">$5.50</span>
+                        <p>Espresso, vanilla syrup, milk, ice and caramel drizzle.</p>
+                        <button class="add-to-cart-btn" data-name="Iced Caramel Macchiato" data-price="5.50"
+                            data-image="https://images.unsplash.com/photo-1517701604599-bb29b5c7fa69?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">Add
+                            to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3>Pastries</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1603532649372-3ce68cad6d6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                        </div>
+                        <div class="menu-details">
+                            <h4>Croissant</h4>
+                            <span class="price">$3.00</span>
+                            <p>Buttery, flaky, and golden baked to perfection.</p>
+                            <button class="add-to-cart-btn" data-name="Croissant" data-price="3.00"
+                                data-image="https://images.unsplash.com/photo-1603532649372-3ce68cad6d6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">Add
+                                to Cart</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                        </div>
+                        <div class="menu-details">
+                            <h4>Blueberry Muffin</h4>
+                            <span class="price">$3.25</span>
+                            <p>Soft muffin packed with fresh blueberries.</p>
+                            <button class="add-to-cart-btn" data-name="Blueberry Muffin" data-price="3.25"
+                                data-image="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">Add
+                                to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p>123 Canopy Lane</p>
+                    <p>Greenwood District, WA 98000</p>
+                    <p>hello@forestbrew.com</p>
+                </div>
+                <div class="socials">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Forest Brew Coffee Co.</p>
+        </div>
+    </footer>
+
+    <div id="floating-cart" class="floating-cart hidden">
+        <div class="cart-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span id="cart-count">0</span>
+        </div>
+        <div class="cart-message">Added to cart!</div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="cart-modal hidden">
+        <div class="cart-overlay"></div>
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button id="close-cart" class="close-btn">&times;</button>
+            </div>
+            <div id="cart-items" class="cart-items">
+                <!-- Items will be injected here -->
+                <p class="empty-msg">Your cart is empty.</p>
+            </div>
+            <div class="cart-footer">
+                <div class="total-row">
+                    <span>Total:</span>
+                    <span id="cart-total">$0.00</span>
+                </div>
+                <button id="checkout-btn" class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
